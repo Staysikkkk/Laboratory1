@@ -1,0 +1,52 @@
+.text {
+    font-size: 20px;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.first {
+    color: hotpink;
+}
+
+.honest {
+    font-size: 10px;
+}
+
+/* Links */
+
+.first__link {
+    color: grey;
+}
+
+.first__link:hover {
+    color: yellow;
+}
+
+.first__link:active {
+    color: purple;
+}
+
+.first__link:visited {
+    color: green;
+}
+
+.second__link {
+    text-decoration: none;
+  }
+
+  .second__link:hover {
+      text-decoration: underline;
+  }
+
+  .btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 700;
+
+    color: white;
+    text-decoration: none;
+    background-color: green;
+
+}   
