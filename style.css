@@ -1,0 +1,38 @@
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid red;
+}
+
+.circle {
+    margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+}
+
+.romb {
+    margin-top: 20px;
+    width: 0; 
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: red;
+    position: relative; 
+    top: -50px;
+    }
+
+.romb:after {
+    content: "";
+    width: 0; 
+    height: 0;
+    position: absolute; 
+    left: -50px; 
+    top: 50px;
+    border: 50px solid transparent;
+    border-top-color: red;
+    }
